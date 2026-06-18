@@ -13,10 +13,7 @@ class Pen(turtle.Turtle):
 class Wall(Pen):
     def __init__(self):
         super().__init__()
-        self.shape("square")
-        self.shapesize(1.2)
-        self.pencolor("white")
-        self.fillcolor("dodger blue")
+        self.shape("wall.gif")
 
     def draw(self):
         for x,y in self.walls:
