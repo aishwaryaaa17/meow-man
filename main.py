@@ -96,6 +96,7 @@ def main():
     screen.register_shape("anay.gif")
     screen.register_shape("butki.gif")
     screen.register_shape("swan.gif")
+    screen.register_shape("wall.gif")
 
     wall_pen = Wall()
     pellet_pen = Pellet()
